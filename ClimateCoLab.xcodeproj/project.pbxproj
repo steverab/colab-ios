@@ -7,8 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AAE7F44A1C606D3400B63A18 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAE7F4491C606D3400B63A18 /* HomeViewController.swift */; };
+		AAE7F44C1C606D5300B63A18 /* CommunityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAE7F44B1C606D5300B63A18 /* CommunityViewController.swift */; };
+		AAE7F44E1C606D8100B63A18 /* UserProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAE7F44D1C606D8100B63A18 /* UserProfileViewController.swift */; };
 		AAF305451C6034060059CE21 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF305441C6034060059CE21 /* AppDelegate.swift */; };
-		AAF305471C6034060059CE21 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF305461C6034060059CE21 /* ViewController.swift */; };
+		AAF305471C6034060059CE21 /* ContestsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF305461C6034060059CE21 /* ContestsViewController.swift */; };
 		AAF3054A1C6034060059CE21 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAF305481C6034060059CE21 /* Main.storyboard */; };
 		AAF3054D1C6034060059CE21 /* ClimateCoLab.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AAF3054B1C6034060059CE21 /* ClimateCoLab.xcdatamodeld */; };
 		AAF3054F1C6034060059CE21 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAF3054E1C6034060059CE21 /* Assets.xcassets */; };
@@ -35,9 +38,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AAE7F4491C606D3400B63A18 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		AAE7F44B1C606D5300B63A18 /* CommunityViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommunityViewController.swift; sourceTree = "<group>"; };
+		AAE7F44D1C606D8100B63A18 /* UserProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserProfileViewController.swift; sourceTree = "<group>"; };
 		AAF305411C6034060059CE21 /* ClimateCoLab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClimateCoLab.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAF305441C6034060059CE21 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AAF305461C6034060059CE21 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AAF305461C6034060059CE21 /* ContestsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContestsViewController.swift; sourceTree = "<group>"; };
 		AAF305491C6034060059CE21 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AAF3054C1C6034060059CE21 /* ClimateCoLab.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ClimateCoLab.xcdatamodel; sourceTree = "<group>"; };
 		AAF3054E1C6034060059CE21 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -79,7 +85,10 @@
 		AAE7F4461C60673A00B63A18 /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				AAF305461C6034060059CE21 /* ViewController.swift */,
+				AAF305461C6034060059CE21 /* ContestsViewController.swift */,
+				AAE7F4491C606D3400B63A18 /* HomeViewController.swift */,
+				AAE7F44B1C606D5300B63A18 /* CommunityViewController.swift */,
+				AAE7F44D1C606D8100B63A18 /* UserProfileViewController.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -283,9 +292,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AAF305471C6034060059CE21 /* ViewController.swift in Sources */,
+				AAF305471C6034060059CE21 /* ContestsViewController.swift in Sources */,
+				AAE7F44E1C606D8100B63A18 /* UserProfileViewController.swift in Sources */,
 				AAF3054D1C6034060059CE21 /* ClimateCoLab.xcdatamodeld in Sources */,
 				AAF305451C6034060059CE21 /* AppDelegate.swift in Sources */,
+				AAE7F44C1C606D5300B63A18 /* CommunityViewController.swift in Sources */,
+				AAE7F44A1C606D3400B63A18 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
