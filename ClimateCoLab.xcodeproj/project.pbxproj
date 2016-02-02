@@ -76,6 +76,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AAE7F4461C60673A00B63A18 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				AAF305461C6034060059CE21 /* ViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		AAE7F4471C60674900B63A18 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AAE7F4481C60675000B63A18 /* Storyboards */,
+				AAF3054E1C6034060059CE21 /* Assets.xcassets */,
+				AAF3054B1C6034060059CE21 /* ClimateCoLab.xcdatamodeld */,
+				AAF305531C6034060059CE21 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		AAE7F4481C60675000B63A18 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				AAF305501C6034060059CE21 /* LaunchScreen.storyboard */,
+				AAF305481C6034060059CE21 /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
 		AAF305381C6034060059CE21 = {
 			isa = PBXGroup;
 			children = (
@@ -99,13 +127,9 @@
 		AAF305431C6034060059CE21 /* ClimateCoLab */ = {
 			isa = PBXGroup;
 			children = (
+				AAE7F4471C60674900B63A18 /* Resources */,
+				AAE7F4461C60673A00B63A18 /* View Controllers */,
 				AAF305441C6034060059CE21 /* AppDelegate.swift */,
-				AAF305461C6034060059CE21 /* ViewController.swift */,
-				AAF305481C6034060059CE21 /* Main.storyboard */,
-				AAF3054E1C6034060059CE21 /* Assets.xcassets */,
-				AAF305501C6034060059CE21 /* LaunchScreen.storyboard */,
-				AAF305531C6034060059CE21 /* Info.plist */,
-				AAF3054B1C6034060059CE21 /* ClimateCoLab.xcdatamodeld */,
 			);
 			path = ClimateCoLab;
 			sourceTree = "<group>";
@@ -303,6 +327,7 @@
 				AAF305491C6034060059CE21 /* Base */,
 			);
 			name = Main.storyboard;
+			path = .;
 			sourceTree = "<group>";
 		};
 		AAF305501C6034060059CE21 /* LaunchScreen.storyboard */ = {
@@ -311,6 +336,7 @@
 				AAF305511C6034060059CE21 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = .;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -401,7 +427,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = ClimateCoLab/Info.plist;
+				INFOPLIST_FILE = ClimateCoLab/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.steverab.ClimateCoLab;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -412,7 +438,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = ClimateCoLab/Info.plist;
+				INFOPLIST_FILE = ClimateCoLab/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.steverab.ClimateCoLab;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -486,6 +512,7 @@
 				AAF3056E1C6034060059CE21 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AAF3056F1C6034060059CE21 /* Build configuration list for PBXNativeTarget "ClimateCoLabTests" */ = {
 			isa = XCConfigurationList;
@@ -494,6 +521,7 @@
 				AAF305711C6034060059CE21 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AAF305721C6034060059CE21 /* Build configuration list for PBXNativeTarget "ClimateCoLabUITests" */ = {
 			isa = XCConfigurationList;
@@ -502,6 +530,7 @@
 				AAF305741C6034060059CE21 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
