@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AAF305451C6034060059CE21 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF305441C6034060059CE21 /* AppDelegate.swift */; };
+		AAF305471C6034060059CE21 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF305461C6034060059CE21 /* ViewController.swift */; };
+		AAF3054A1C6034060059CE21 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAF305481C6034060059CE21 /* Main.storyboard */; };
+		AAF3054D1C6034060059CE21 /* ClimateCoLab.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AAF3054B1C6034060059CE21 /* ClimateCoLab.xcdatamodeld */; };
+		AAF3054F1C6034060059CE21 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAF3054E1C6034060059CE21 /* Assets.xcassets */; };
+		AAF305521C6034060059CE21 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAF305501C6034060059CE21 /* LaunchScreen.storyboard */; };
+		AAF3055D1C6034060059CE21 /* ClimateCoLabTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF3055C1C6034060059CE21 /* ClimateCoLabTests.swift */; };
+		AAF305681C6034060059CE21 /* ClimateCoLabUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF305671C6034060059CE21 /* ClimateCoLabUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AAF305591C6034060059CE21 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AAF305391C6034060059CE21 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AAF305401C6034060059CE21;
+			remoteInfo = ClimateCoLab;
+		};
+		AAF305641C6034060059CE21 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AAF305391C6034060059CE21 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AAF305401C6034060059CE21;
+			remoteInfo = ClimateCoLab;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AAF305411C6034060059CE21 /* ClimateCoLab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClimateCoLab.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAF305441C6034060059CE21 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AAF305461C6034060059CE21 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AAF305491C6034060059CE21 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AAF3054C1C6034060059CE21 /* ClimateCoLab.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ClimateCoLab.xcdatamodel; sourceTree = "<group>"; };
+		AAF3054E1C6034060059CE21 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AAF305511C6034060059CE21 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AAF305531C6034060059CE21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AAF305581C6034060059CE21 /* ClimateCoLabTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClimateCoLabTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAF3055C1C6034060059CE21 /* ClimateCoLabTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClimateCoLabTests.swift; sourceTree = "<group>"; };
+		AAF3055E1C6034060059CE21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AAF305631C6034060059CE21 /* ClimateCoLabUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClimateCoLabUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAF305671C6034060059CE21 /* ClimateCoLabUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClimateCoLabUITests.swift; sourceTree = "<group>"; };
+		AAF305691C6034060059CE21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AAF3053E1C6034060059CE21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAF305551C6034060059CE21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAF305601C6034060059CE21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AAF305381C6034060059CE21 = {
+			isa = PBXGroup;
+			children = (
+				AAF305431C6034060059CE21 /* ClimateCoLab */,
+				AAF3055B1C6034060059CE21 /* ClimateCoLabTests */,
+				AAF305661C6034060059CE21 /* ClimateCoLabUITests */,
+				AAF305421C6034060059CE21 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AAF305421C6034060059CE21 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AAF305411C6034060059CE21 /* ClimateCoLab.app */,
+				AAF305581C6034060059CE21 /* ClimateCoLabTests.xctest */,
+				AAF305631C6034060059CE21 /* ClimateCoLabUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AAF305431C6034060059CE21 /* ClimateCoLab */ = {
+			isa = PBXGroup;
+			children = (
+				AAF305441C6034060059CE21 /* AppDelegate.swift */,
+				AAF305461C6034060059CE21 /* ViewController.swift */,
+				AAF305481C6034060059CE21 /* Main.storyboard */,
+				AAF3054E1C6034060059CE21 /* Assets.xcassets */,
+				AAF305501C6034060059CE21 /* LaunchScreen.storyboard */,
+				AAF305531C6034060059CE21 /* Info.plist */,
+				AAF3054B1C6034060059CE21 /* ClimateCoLab.xcdatamodeld */,
+			);
+			path = ClimateCoLab;
+			sourceTree = "<group>";
+		};
+		AAF3055B1C6034060059CE21 /* ClimateCoLabTests */ = {
+			isa = PBXGroup;
+			children = (
+				AAF3055C1C6034060059CE21 /* ClimateCoLabTests.swift */,
+				AAF3055E1C6034060059CE21 /* Info.plist */,
+			);
+			path = ClimateCoLabTests;
+			sourceTree = "<group>";
+		};
+		AAF305661C6034060059CE21 /* ClimateCoLabUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AAF305671C6034060059CE21 /* ClimateCoLabUITests.swift */,
+				AAF305691C6034060059CE21 /* Info.plist */,
+			);
+			path = ClimateCoLabUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AAF305401C6034060059CE21 /* ClimateCoLab */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAF3056C1C6034060059CE21 /* Build configuration list for PBXNativeTarget "ClimateCoLab" */;
+			buildPhases = (
+				AAF3053D1C6034060059CE21 /* Sources */,
+				AAF3053E1C6034060059CE21 /* Frameworks */,
+				AAF3053F1C6034060059CE21 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ClimateCoLab;
+			productName = ClimateCoLab;
+			productReference = AAF305411C6034060059CE21 /* ClimateCoLab.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AAF305571C6034060059CE21 /* ClimateCoLabTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAF3056F1C6034060059CE21 /* Build configuration list for PBXNativeTarget "ClimateCoLabTests" */;
+			buildPhases = (
+				AAF305541C6034060059CE21 /* Sources */,
+				AAF305551C6034060059CE21 /* Frameworks */,
+				AAF305561C6034060059CE21 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AAF3055A1C6034060059CE21 /* PBXTargetDependency */,
+			);
+			name = ClimateCoLabTests;
+			productName = ClimateCoLabTests;
+			productReference = AAF305581C6034060059CE21 /* ClimateCoLabTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AAF305621C6034060059CE21 /* ClimateCoLabUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAF305721C6034060059CE21 /* Build configuration list for PBXNativeTarget "ClimateCoLabUITests" */;
+			buildPhases = (
+				AAF3055F1C6034060059CE21 /* Sources */,
+				AAF305601C6034060059CE21 /* Frameworks */,
+				AAF305611C6034060059CE21 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AAF305651C6034060059CE21 /* PBXTargetDependency */,
+			);
+			name = ClimateCoLabUITests;
+			productName = ClimateCoLabUITests;
+			productReference = AAF305631C6034060059CE21 /* ClimateCoLabUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AAF305391C6034060059CE21 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = MIT;
+				TargetAttributes = {
+					AAF305401C6034060059CE21 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					AAF305571C6034060059CE21 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = AAF305401C6034060059CE21;
+					};
+					AAF305621C6034060059CE21 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = AAF305401C6034060059CE21;
+					};
+				};
+			};
+			buildConfigurationList = AAF3053C1C6034060059CE21 /* Build configuration list for PBXProject "ClimateCoLab" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AAF305381C6034060059CE21;
+			productRefGroup = AAF305421C6034060059CE21 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AAF305401C6034060059CE21 /* ClimateCoLab */,
+				AAF305571C6034060059CE21 /* ClimateCoLabTests */,
+				AAF305621C6034060059CE21 /* ClimateCoLabUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AAF3053F1C6034060059CE21 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAF305521C6034060059CE21 /* LaunchScreen.storyboard in Resources */,
+				AAF3054F1C6034060059CE21 /* Assets.xcassets in Resources */,
+				AAF3054A1C6034060059CE21 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAF305561C6034060059CE21 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAF305611C6034060059CE21 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AAF3053D1C6034060059CE21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAF305471C6034060059CE21 /* ViewController.swift in Sources */,
+				AAF3054D1C6034060059CE21 /* ClimateCoLab.xcdatamodeld in Sources */,
+				AAF305451C6034060059CE21 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAF305541C6034060059CE21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAF3055D1C6034060059CE21 /* ClimateCoLabTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAF3055F1C6034060059CE21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAF305681C6034060059CE21 /* ClimateCoLabUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AAF3055A1C6034060059CE21 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AAF305401C6034060059CE21 /* ClimateCoLab */;
+			targetProxy = AAF305591C6034060059CE21 /* PBXContainerItemProxy */;
+		};
+		AAF305651C6034060059CE21 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AAF305401C6034060059CE21 /* ClimateCoLab */;
+			targetProxy = AAF305641C6034060059CE21 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AAF305481C6034060059CE21 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AAF305491C6034060059CE21 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AAF305501C6034060059CE21 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AAF305511C6034060059CE21 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AAF3056A1C6034060059CE21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AAF3056B1C6034060059CE21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AAF3056D1C6034060059CE21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ClimateCoLab/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.steverab.ClimateCoLab;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AAF3056E1C6034060059CE21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ClimateCoLab/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.steverab.ClimateCoLab;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		AAF305701C6034060059CE21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ClimateCoLabTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.steverab.ClimateCoLabTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ClimateCoLab.app/ClimateCoLab";
+			};
+			name = Debug;
+		};
+		AAF305711C6034060059CE21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ClimateCoLabTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.steverab.ClimateCoLabTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ClimateCoLab.app/ClimateCoLab";
+			};
+			name = Release;
+		};
+		AAF305731C6034060059CE21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ClimateCoLabUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.steverab.ClimateCoLabUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ClimateCoLab;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		AAF305741C6034060059CE21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ClimateCoLabUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.steverab.ClimateCoLabUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ClimateCoLab;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AAF3053C1C6034060059CE21 /* Build configuration list for PBXProject "ClimateCoLab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAF3056A1C6034060059CE21 /* Debug */,
+				AAF3056B1C6034060059CE21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AAF3056C1C6034060059CE21 /* Build configuration list for PBXNativeTarget "ClimateCoLab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAF3056D1C6034060059CE21 /* Debug */,
+				AAF3056E1C6034060059CE21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AAF3056F1C6034060059CE21 /* Build configuration list for PBXNativeTarget "ClimateCoLabTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAF305701C6034060059CE21 /* Debug */,
+				AAF305711C6034060059CE21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AAF305721C6034060059CE21 /* Build configuration list for PBXNativeTarget "ClimateCoLabUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAF305731C6034060059CE21 /* Debug */,
+				AAF305741C6034060059CE21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		AAF3054B1C6034060059CE21 /* ClimateCoLab.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				AAF3054C1C6034060059CE21 /* ClimateCoLab.xcdatamodel */,
+			);
+			currentVersion = AAF3054C1C6034060059CE21 /* ClimateCoLab.xcdatamodel */;
+			path = ClimateCoLab.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = AAF305391C6034060059CE21 /* Project object */;
+}
