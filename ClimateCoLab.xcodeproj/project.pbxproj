@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		54EDF19D1041D405D9CAFCAE /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51081D6E39FFEC67EE00FB11 /* Pods.framework */; };
 		AAE7F44A1C606D3400B63A18 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAE7F4491C606D3400B63A18 /* HomeViewController.swift */; };
 		AAE7F44C1C606D5300B63A18 /* CommunityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAE7F44B1C606D5300B63A18 /* CommunityViewController.swift */; };
 		AAE7F44E1C606D8100B63A18 /* UserProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAE7F44D1C606D8100B63A18 /* UserProfileViewController.swift */; };
@@ -38,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		003E98F75AA8516CB035DEF7 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		51081D6E39FFEC67EE00FB11 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAE7F4491C606D3400B63A18 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		AAE7F44B1C606D5300B63A18 /* CommunityViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommunityViewController.swift; sourceTree = "<group>"; };
 		AAE7F44D1C606D8100B63A18 /* UserProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserProfileViewController.swift; sourceTree = "<group>"; };
@@ -55,6 +58,7 @@
 		AAF305631C6034060059CE21 /* ClimateCoLabUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClimateCoLabUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAF305671C6034060059CE21 /* ClimateCoLabUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClimateCoLabUITests.swift; sourceTree = "<group>"; };
 		AAF305691C6034060059CE21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6D5FAC09F082C5A23B2735E /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				54EDF19D1041D405D9CAFCAE /* Pods.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,6 +87,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2181D1954E599F74B83CFAE8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				003E98F75AA8516CB035DEF7 /* Pods.debug.xcconfig */,
+				B6D5FAC09F082C5A23B2735E /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4036EAAECFDC35B1F4E0E473 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				51081D6E39FFEC67EE00FB11 /* Pods.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		AAE7F4461C60673A00B63A18 /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
@@ -120,6 +142,8 @@
 				AAF3055B1C6034060059CE21 /* ClimateCoLabTests */,
 				AAF305661C6034060059CE21 /* ClimateCoLabUITests */,
 				AAF305421C6034060059CE21 /* Products */,
+				2181D1954E599F74B83CFAE8 /* Pods */,
+				4036EAAECFDC35B1F4E0E473 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -168,9 +192,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AAF3056C1C6034060059CE21 /* Build configuration list for PBXNativeTarget "ClimateCoLab" */;
 			buildPhases = (
+				29182F20F8C585AA6D689E7E /* Check Pods Manifest.lock */,
 				AAF3053D1C6034060059CE21 /* Sources */,
 				AAF3053E1C6034060059CE21 /* Frameworks */,
 				AAF3053F1C6034060059CE21 /* Resources */,
+				5C6921A5BBC6D27EECF2226E /* Embed Pods Frameworks */,
+				B5D2DA812639AE391C21E53E /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -286,6 +313,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		29182F20F8C585AA6D689E7E /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5C6921A5BBC6D27EECF2226E /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B5D2DA812639AE391C21E53E /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		AAF3053D1C6034060059CE21 /* Sources */ = {
@@ -437,6 +512,7 @@
 		};
 		AAF3056D1C6034060059CE21 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 003E98F75AA8516CB035DEF7 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ClimateCoLab/Resources/Info.plist;
@@ -448,6 +524,7 @@
 		};
 		AAF3056E1C6034060059CE21 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6D5FAC09F082C5A23B2735E /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ClimateCoLab/Resources/Info.plist;
