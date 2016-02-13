@@ -1,1 +1,1 @@
-# ClimateCoLab-iOS
+# CoLab-iOS
